@@ -1,0 +1,458 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		2DC7355914CCBDB400DAEB2C /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2DC7355814CCBDB400DAEB2C /* UIKit.framework */; };
+		2DC7355B14CCBDB400DAEB2C /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2DC7355A14CCBDB400DAEB2C /* Foundation.framework */; };
+		2DC7355D14CCBDB400DAEB2C /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2DC7355C14CCBDB400DAEB2C /* CoreGraphics.framework */; };
+		2DC7356314CCBDB400DAEB2C /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 2DC7356114CCBDB400DAEB2C /* InfoPlist.strings */; };
+		2DC7356514CCBDB400DAEB2C /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 2DC7356414CCBDB400DAEB2C /* main.m */; };
+		2DC7356914CCBDB400DAEB2C /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 2DC7356814CCBDB400DAEB2C /* AppDelegate.m */; };
+		2DC7356C14CCBDB400DAEB2C /* MainStoryboard_iPhone.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2DC7356A14CCBDB400DAEB2C /* MainStoryboard_iPhone.storyboard */; };
+		2DC7356F14CCBDB400DAEB2C /* MainStoryboard_iPad.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2DC7356D14CCBDB400DAEB2C /* MainStoryboard_iPad.storyboard */; };
+		2DC7357214CCBDB400DAEB2C /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2DC7357114CCBDB400DAEB2C /* ViewController.m */; };
+		2DC7357A14CCBDB500DAEB2C /* SenTestingKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2DC7357914CCBDB500DAEB2C /* SenTestingKit.framework */; };
+		2DC7357B14CCBDB500DAEB2C /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2DC7355814CCBDB400DAEB2C /* UIKit.framework */; };
+		2DC7357C14CCBDB500DAEB2C /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2DC7355A14CCBDB400DAEB2C /* Foundation.framework */; };
+		2DC7358414CCBDB500DAEB2C /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 2DC7358214CCBDB500DAEB2C /* InfoPlist.strings */; };
+		2DC7358714CCBDB500DAEB2C /* iOS_HTML5_Shell_AppTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 2DC7358614CCBDB500DAEB2C /* iOS_HTML5_Shell_AppTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		2DC7357D14CCBDB500DAEB2C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 2DC7354B14CCBDB300DAEB2C /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 2DC7355314CCBDB400DAEB2C;
+			remoteInfo = "iOS HTML5 Shell App";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		2DC7355414CCBDB400DAEB2C /* iOS HTML5 Shell App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "iOS HTML5 Shell App.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		2DC7355814CCBDB400DAEB2C /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		2DC7355A14CCBDB400DAEB2C /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		2DC7355C14CCBDB400DAEB2C /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		2DC7356014CCBDB400DAEB2C /* iOS HTML5 Shell App-Info.plist */ = {isa = PBXFileReference; path = "iOS HTML5 Shell App-Info.plist"; sourceTree = "<group>"; };
+		2DC7356214CCBDB400DAEB2C /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		2DC7356414CCBDB400DAEB2C /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		2DC7356614CCBDB400DAEB2C /* iOS HTML5 Shell App-Prefix.pch */ = {isa = PBXFileReference; path = "iOS HTML5 Shell App-Prefix.pch"; sourceTree = "<group>"; };
+		2DC7356714CCBDB400DAEB2C /* AppDelegate.h */ = {isa = PBXFileReference; path = AppDelegate.h; sourceTree = "<group>"; };
+		2DC7356814CCBDB400DAEB2C /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		2DC7356B14CCBDB400DAEB2C /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard_iPhone.storyboard; sourceTree = "<group>"; };
+		2DC7356E14CCBDB400DAEB2C /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard_iPad.storyboard; sourceTree = "<group>"; };
+		2DC7357014CCBDB400DAEB2C /* ViewController.h */ = {isa = PBXFileReference; path = ViewController.h; sourceTree = "<group>"; };
+		2DC7357114CCBDB400DAEB2C /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		2DC7357814CCBDB500DAEB2C /* iOS HTML5 Shell AppTests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "iOS HTML5 Shell AppTests.octest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		2DC7357914CCBDB500DAEB2C /* SenTestingKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SenTestingKit.framework; path = Library/Frameworks/SenTestingKit.framework; sourceTree = DEVELOPER_DIR; };
+		2DC7358114CCBDB500DAEB2C /* iOS HTML5 Shell AppTests-Info.plist */ = {isa = PBXFileReference; path = "iOS HTML5 Shell AppTests-Info.plist"; sourceTree = "<group>"; };
+		2DC7358314CCBDB500DAEB2C /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		2DC7358514CCBDB500DAEB2C /* iOS_HTML5_Shell_AppTests.h */ = {isa = PBXFileReference; path = iOS_HTML5_Shell_AppTests.h; sourceTree = "<group>"; };
+		2DC7358614CCBDB500DAEB2C /* iOS_HTML5_Shell_AppTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = iOS_HTML5_Shell_AppTests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		2DC7355114CCBDB400DAEB2C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2DC7355914CCBDB400DAEB2C /* UIKit.framework in Frameworks */,
+				2DC7355B14CCBDB400DAEB2C /* Foundation.framework in Frameworks */,
+				2DC7355D14CCBDB400DAEB2C /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2DC7357414CCBDB500DAEB2C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2DC7357A14CCBDB500DAEB2C /* SenTestingKit.framework in Frameworks */,
+				2DC7357B14CCBDB500DAEB2C /* UIKit.framework in Frameworks */,
+				2DC7357C14CCBDB500DAEB2C /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		2DC7354914CCBDB300DAEB2C = {
+			isa = PBXGroup;
+			children = (
+				2DC7355E14CCBDB400DAEB2C /* iOS HTML5 Shell App */,
+				2DC7357F14CCBDB500DAEB2C /* iOS HTML5 Shell AppTests */,
+				2DC7355714CCBDB400DAEB2C /* Frameworks */,
+				2DC7355514CCBDB400DAEB2C /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		2DC7355514CCBDB400DAEB2C /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				2DC7355414CCBDB400DAEB2C /* iOS HTML5 Shell App.app */,
+				2DC7357814CCBDB500DAEB2C /* iOS HTML5 Shell AppTests.octest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		2DC7355714CCBDB400DAEB2C /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				2DC7355814CCBDB400DAEB2C /* UIKit.framework */,
+				2DC7355A14CCBDB400DAEB2C /* Foundation.framework */,
+				2DC7355C14CCBDB400DAEB2C /* CoreGraphics.framework */,
+				2DC7357914CCBDB500DAEB2C /* SenTestingKit.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		2DC7355E14CCBDB400DAEB2C /* iOS HTML5 Shell App */ = {
+			isa = PBXGroup;
+			children = (
+				2DC7356714CCBDB400DAEB2C /* AppDelegate.h */,
+				2DC7356814CCBDB400DAEB2C /* AppDelegate.m */,
+				2DC7356A14CCBDB400DAEB2C /* MainStoryboard_iPhone.storyboard */,
+				2DC7356D14CCBDB400DAEB2C /* MainStoryboard_iPad.storyboard */,
+				2DC7357014CCBDB400DAEB2C /* ViewController.h */,
+				2DC7357114CCBDB400DAEB2C /* ViewController.m */,
+				2DC7355F14CCBDB400DAEB2C /* Supporting Files */,
+			);
+			path = "iOS HTML5 Shell App";
+			sourceTree = "<group>";
+		};
+		2DC7355F14CCBDB400DAEB2C /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				2DC7356014CCBDB400DAEB2C /* iOS HTML5 Shell App-Info.plist */,
+				2DC7356114CCBDB400DAEB2C /* InfoPlist.strings */,
+				2DC7356414CCBDB400DAEB2C /* main.m */,
+				2DC7356614CCBDB400DAEB2C /* iOS HTML5 Shell App-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		2DC7357F14CCBDB500DAEB2C /* iOS HTML5 Shell AppTests */ = {
+			isa = PBXGroup;
+			children = (
+				2DC7358514CCBDB500DAEB2C /* iOS_HTML5_Shell_AppTests.h */,
+				2DC7358614CCBDB500DAEB2C /* iOS_HTML5_Shell_AppTests.m */,
+				2DC7358014CCBDB500DAEB2C /* Supporting Files */,
+			);
+			path = "iOS HTML5 Shell AppTests";
+			sourceTree = "<group>";
+		};
+		2DC7358014CCBDB500DAEB2C /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				2DC7358114CCBDB500DAEB2C /* iOS HTML5 Shell AppTests-Info.plist */,
+				2DC7358214CCBDB500DAEB2C /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		2DC7355314CCBDB400DAEB2C /* iOS HTML5 Shell App */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2DC7358A14CCBDB500DAEB2C /* Build configuration list for PBXNativeTarget "iOS HTML5 Shell App" */;
+			buildPhases = (
+				2DC7355014CCBDB400DAEB2C /* Sources */,
+				2DC7355114CCBDB400DAEB2C /* Frameworks */,
+				2DC7355214CCBDB400DAEB2C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "iOS HTML5 Shell App";
+			productName = "iOS HTML5 Shell App";
+			productReference = 2DC7355414CCBDB400DAEB2C /* iOS HTML5 Shell App.app */;
+			productType = "com.apple.product-type.application";
+		};
+		2DC7357714CCBDB500DAEB2C /* iOS HTML5 Shell AppTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2DC7358D14CCBDB500DAEB2C /* Build configuration list for PBXNativeTarget "iOS HTML5 Shell AppTests" */;
+			buildPhases = (
+				2DC7357314CCBDB500DAEB2C /* Sources */,
+				2DC7357414CCBDB500DAEB2C /* Frameworks */,
+				2DC7357514CCBDB500DAEB2C /* Resources */,
+				2DC7357614CCBDB500DAEB2C /* ShellScript */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				2DC7357E14CCBDB500DAEB2C /* PBXTargetDependency */,
+			);
+			name = "iOS HTML5 Shell AppTests";
+			productName = "iOS HTML5 Shell AppTests";
+			productReference = 2DC7357814CCBDB500DAEB2C /* iOS HTML5 Shell AppTests.octest */;
+			productType = "com.apple.product-type.bundle";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		2DC7354B14CCBDB300DAEB2C /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0420;
+			};
+			buildConfigurationList = 2DC7354E14CCBDB300DAEB2C /* Build configuration list for PBXProject "iOS HTML5 Shell App" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 2DC7354914CCBDB300DAEB2C;
+			productRefGroup = 2DC7355514CCBDB400DAEB2C /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				2DC7355314CCBDB400DAEB2C /* iOS HTML5 Shell App */,
+				2DC7357714CCBDB500DAEB2C /* iOS HTML5 Shell AppTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		2DC7355214CCBDB400DAEB2C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2DC7356314CCBDB400DAEB2C /* InfoPlist.strings in Resources */,
+				2DC7356C14CCBDB400DAEB2C /* MainStoryboard_iPhone.storyboard in Resources */,
+				2DC7356F14CCBDB400DAEB2C /* MainStoryboard_iPad.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2DC7357514CCBDB500DAEB2C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2DC7358414CCBDB500DAEB2C /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		2DC7357614CCBDB500DAEB2C /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# Run the unit tests in this test bundle.\n\"${SYSTEM_DEVELOPER_DIR}/Tools/RunUnitTests\"\n";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		2DC7355014CCBDB400DAEB2C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2DC7356514CCBDB400DAEB2C /* main.m in Sources */,
+				2DC7356914CCBDB400DAEB2C /* AppDelegate.m in Sources */,
+				2DC7357214CCBDB400DAEB2C /* ViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2DC7357314CCBDB500DAEB2C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2DC7358714CCBDB500DAEB2C /* iOS_HTML5_Shell_AppTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		2DC7357E14CCBDB500DAEB2C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 2DC7355314CCBDB400DAEB2C /* iOS HTML5 Shell App */;
+			targetProxy = 2DC7357D14CCBDB500DAEB2C /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		2DC7356114CCBDB400DAEB2C /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				2DC7356214CCBDB400DAEB2C /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		2DC7356A14CCBDB400DAEB2C /* MainStoryboard_iPhone.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				2DC7356B14CCBDB400DAEB2C /* en */,
+			);
+			name = MainStoryboard_iPhone.storyboard;
+			sourceTree = "<group>";
+		};
+		2DC7356D14CCBDB400DAEB2C /* MainStoryboard_iPad.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				2DC7356E14CCBDB400DAEB2C /* en */,
+			);
+			name = MainStoryboard_iPad.storyboard;
+			sourceTree = "<group>";
+		};
+		2DC7358214CCBDB500DAEB2C /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				2DC7358314CCBDB500DAEB2C /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		2DC7358814CCBDB500DAEB2C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		2DC7358914CCBDB500DAEB2C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		2DC7358B14CCBDB500DAEB2C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "iOS HTML5 Shell App/iOS HTML5 Shell App-Prefix.pch";
+				INFOPLIST_FILE = "iOS HTML5 Shell App/iOS HTML5 Shell App-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		2DC7358C14CCBDB500DAEB2C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "iOS HTML5 Shell App/iOS HTML5 Shell App-Prefix.pch";
+				INFOPLIST_FILE = "iOS HTML5 Shell App/iOS HTML5 Shell App-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		2DC7358E14CCBDB500DAEB2C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/iOS HTML5 Shell App.app/iOS HTML5 Shell App";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(DEVELOPER_LIBRARY_DIR)/Frameworks",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "iOS HTML5 Shell App/iOS HTML5 Shell App-Prefix.pch";
+				INFOPLIST_FILE = "iOS HTML5 Shell AppTests/iOS HTML5 Shell AppTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Debug;
+		};
+		2DC7358F14CCBDB500DAEB2C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/iOS HTML5 Shell App.app/iOS HTML5 Shell App";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(DEVELOPER_LIBRARY_DIR)/Frameworks",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "iOS HTML5 Shell App/iOS HTML5 Shell App-Prefix.pch";
+				INFOPLIST_FILE = "iOS HTML5 Shell AppTests/iOS HTML5 Shell AppTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2DC7354E14CCBDB300DAEB2C /* Build configuration list for PBXProject "iOS HTML5 Shell App" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2DC7358814CCBDB500DAEB2C /* Debug */,
+				2DC7358914CCBDB500DAEB2C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2DC7358A14CCBDB500DAEB2C /* Build configuration list for PBXNativeTarget "iOS HTML5 Shell App" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2DC7358B14CCBDB500DAEB2C /* Debug */,
+				2DC7358C14CCBDB500DAEB2C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		2DC7358D14CCBDB500DAEB2C /* Build configuration list for PBXNativeTarget "iOS HTML5 Shell AppTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2DC7358E14CCBDB500DAEB2C /* Debug */,
+				2DC7358F14CCBDB500DAEB2C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 2DC7354B14CCBDB300DAEB2C /* Project object */;
+}
