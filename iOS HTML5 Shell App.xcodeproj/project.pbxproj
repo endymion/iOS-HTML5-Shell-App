@@ -38,21 +38,21 @@
 		2DC7355814CCBDB400DAEB2C /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		2DC7355A14CCBDB400DAEB2C /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		2DC7355C14CCBDB400DAEB2C /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
-		2DC7356014CCBDB400DAEB2C /* iOS HTML5 Shell App-Info.plist */ = {isa = PBXFileReference; path = "iOS HTML5 Shell App-Info.plist"; sourceTree = "<group>"; };
+		2DC7356014CCBDB400DAEB2C /* iOS HTML5 Shell App-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "iOS HTML5 Shell App-Info.plist"; sourceTree = "<group>"; };
 		2DC7356214CCBDB400DAEB2C /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		2DC7356414CCBDB400DAEB2C /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		2DC7356614CCBDB400DAEB2C /* iOS HTML5 Shell App-Prefix.pch */ = {isa = PBXFileReference; path = "iOS HTML5 Shell App-Prefix.pch"; sourceTree = "<group>"; };
-		2DC7356714CCBDB400DAEB2C /* AppDelegate.h */ = {isa = PBXFileReference; path = AppDelegate.h; sourceTree = "<group>"; };
+		2DC7356614CCBDB400DAEB2C /* iOS HTML5 Shell App-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "iOS HTML5 Shell App-Prefix.pch"; sourceTree = "<group>"; };
+		2DC7356714CCBDB400DAEB2C /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		2DC7356814CCBDB400DAEB2C /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
 		2DC7356B14CCBDB400DAEB2C /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard_iPhone.storyboard; sourceTree = "<group>"; };
 		2DC7356E14CCBDB400DAEB2C /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard_iPad.storyboard; sourceTree = "<group>"; };
-		2DC7357014CCBDB400DAEB2C /* ViewController.h */ = {isa = PBXFileReference; path = ViewController.h; sourceTree = "<group>"; };
+		2DC7357014CCBDB400DAEB2C /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
 		2DC7357114CCBDB400DAEB2C /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		2DC7357814CCBDB500DAEB2C /* iOS HTML5 Shell AppTests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "iOS HTML5 Shell AppTests.octest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		2DC7357914CCBDB500DAEB2C /* SenTestingKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SenTestingKit.framework; path = Library/Frameworks/SenTestingKit.framework; sourceTree = DEVELOPER_DIR; };
-		2DC7358114CCBDB500DAEB2C /* iOS HTML5 Shell AppTests-Info.plist */ = {isa = PBXFileReference; path = "iOS HTML5 Shell AppTests-Info.plist"; sourceTree = "<group>"; };
+		2DC7358114CCBDB500DAEB2C /* iOS HTML5 Shell AppTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "iOS HTML5 Shell AppTests-Info.plist"; sourceTree = "<group>"; };
 		2DC7358314CCBDB500DAEB2C /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
-		2DC7358514CCBDB500DAEB2C /* iOS_HTML5_Shell_AppTests.h */ = {isa = PBXFileReference; path = iOS_HTML5_Shell_AppTests.h; sourceTree = "<group>"; };
+		2DC7358514CCBDB500DAEB2C /* iOS_HTML5_Shell_AppTests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = iOS_HTML5_Shell_AppTests.h; sourceTree = "<group>"; };
 		2DC7358614CCBDB500DAEB2C /* iOS_HTML5_Shell_AppTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = iOS_HTML5_Shell_AppTests.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 

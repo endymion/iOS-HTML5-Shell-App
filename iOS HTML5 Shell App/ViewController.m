@@ -22,13 +22,16 @@
 {
     [super viewDidLoad];
 	// Do any additional setup after loading the view, typically from a nib.
+
+    [webView loadRequest:[NSURLRequest requestWithURL:[NSURL URLWithString:@"http://www.jqmgallery.com/"]]];
 }
 
 - (void)viewDidUnload
 {
     [super viewDidUnload];
+
     // Release any retained subviews of the main view.
-    // e.g. self.myOutlet = nil;
+    self.webView = nil;
 }
 
 - (void)viewWillAppear:(BOOL)animated
